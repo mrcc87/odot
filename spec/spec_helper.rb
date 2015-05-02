@@ -63,5 +63,5 @@ RSpec.configure do |config|
 
   # Added for error message
   config.expose_current_running_example_as :example
-  config.raise_errors_for_deprecations!
+  # config.raise_errors_for_deprecations!
 end
