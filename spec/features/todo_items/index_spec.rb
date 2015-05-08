@@ -33,7 +33,7 @@ describe "Viewing todo items" do
 
     within "ul.todo_items" do
       expect(page).to have_content("Milk")
-      expect(page).to have_content("Milk")
+      expect(page).to have_content("Eggs")
     end
 
 
